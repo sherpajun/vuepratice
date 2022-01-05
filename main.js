@@ -35,4 +35,18 @@ console.log(ch);
 
 //String Number boolean null undefined
 
+//object
+
+const monkey = {
+    name: "원숭이",
+    age: 10,
+    weight : "10kg",
+    gender :  "male",
+    food : ["banana","carrot","potato"],
+    home : {
+        location:'north korea',
+        size:"big",
+        value : 3000
+    }
+}
 
