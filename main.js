@@ -50,3 +50,29 @@ const monkey = {
     }
 }
 
+//fuction
+const item1 = 3000;
+const item2 = 2000;
+const item3 = 1000;
+
+const loyalty = 1000;
+
+function showprice(price){
+    //console.log(price+loyalty);
+    return price+loyalty;
+}
+const showPrice = function(price){
+    return price+loyalty;
+}
+
+console.log(showPrice(item1));
+
+showprice(item1);
+showprice(item2);
+showprice(item3);
+
+//화살표 함수
+const showPRice =(price) => {
+    return price+loyalty;
+}
+
